@@ -22,11 +22,11 @@ The text in brackets translates to "saving data"
 This is a list of string IDs and what they translate to. ~~Kanji characters I can't read (most of them) are replaced with K?~~
 Nevermind, I found Japanese OCR.
 
-| String ID                       | Text        | Rough Translation |
-| ------------------------------- | ----------- | ----------------- |
-| `GAMESAVE_ERR_CARD_CONNECT`     | Unknown     |                   
-| `GAMESAVE_ERR_SAVE_OTHER`       | Unknown     |                   
-| `GAMESAVE_ERR_LOAD_DATA_BROKEN` | Unknown     |                   
-| `GAMESAVE_ERR_LOAD_OLD_VERSION` | Unknown     |
-| `GAMESAVE_ERR_SAVE_OTHER`       | Unknown     |
+| String ID                       | Text                                                               | Rough Translation                                                  |
+| ------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| `GAMESAVE_ERR_CARD_CONNECT`     | データを読めませんでした。  電源を切って、DSカードを差し込 み直してください。| Data could not be read. Turn off the power, insert (?) the DS card |               
+| `GAMESAVE_ERR_SAVE_OTHER`       | セープデータの保存た失敗しました。                                      | Data saving failed.                                                |
+| `GAMESAVE_ERR_LOAD_DATA_BROKEN` | Unknown                                                            |                                                                    |                                         
+| `GAMESAVE_ERR_LOAD_OLD_VERSION` | Unknown                                                            |                                                                    |
+| `GAMESAVE_ERR_SAVE_OTHER`       | Unknown                                                            |                                                                    |
 
