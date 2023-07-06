@@ -1,12 +1,27 @@
+# Supported cars
+✅ means Seatbelt is not needed (Only for AVN-ZX02i afaik)
+
+💺 means Seatbelt is needed.
+
+📝 means Seatbelt support is planned.
+
+🚧 means Seatbelt is working on support.
+
+❌ means Seatbelt does not have support.
+
+| Manufacturer | Model   | Year/Version | State  |
+| ------------ | ------- | ------------ | ------ |
+| Denso-ten    | ECLIPSE | AVN-ZX02i    | ✅     |
 # Save
-For some reason, it seems cartridges come with saves. If there is no save on the cart, we recieve an error known as Error 3.
+~~For some reason, it seems cartridges come with saves. If there is no save on the cart, we recieve an error known as Error 3.~~
+Kuruma de DS can't load data on emulators, causing error 3.
 Here are the other errors
 ## Save Errors
 | ID  | String ID                       | Cause       |
 | --- | ------------------------------- | ----------- |
 | 1   | `GAMESAVE_ERR_CARD_CONNECT`     | Unknown     |
 | 2   | `GAMESAVE_ERR_SAVE_OTHER`       | Unknown     |
-| 3   | `GAMESAVE_ERR_CARD_CONNECT`     | No save     |
+| 3   | `GAMESAVE_ERR_CARD_CONNECT`     | Using an emulator     |
 | 4/5 | `GAMESAVE_ERR_LOAD_DATA_BROKEN` | Unknown     |
 | 6   | `GAMESAVE_ERR_LOAD_OLD_VERSION` | Unknown     |
 | 7/8 | `GAMESAVE_ERR_SAVE_OTHER`       | Unknown     |
@@ -30,3 +45,8 @@ Nevermind, I found Japanese OCR.
 | `GAMESAVE_ERR_LOAD_OLD_VERSION` | Unknown                                                            |                                                                    |
 | `GAMESAVE_ERR_SAVE_OTHER`       | Unknown                                                            |                                                                    |
 
+# The AVN-ZX02i
+Denso-ten's flagship product (at the time). Came packaged with Kuruma de DS, and it's the main reason why we're here.
+
+## Protocol
+No clue. It must have some sort of indicator, because when a car is started and in bluetooth pairing mode in the vicinity of a DS running UZCJ, UZCJ picks it up, but then errors shortly after.
