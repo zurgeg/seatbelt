@@ -3,9 +3,9 @@
 
 💺 means Seatbelt is needed.
 
-📝 means Seatbelt support is planned.
-
 🚧 means Seatbelt is working on support.
+
+📝 means Seatbelt support is planned.
 
 ❌ means Seatbelt does not have support.
 
